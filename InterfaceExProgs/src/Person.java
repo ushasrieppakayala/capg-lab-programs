@@ -3,6 +3,11 @@ public class Person {
 	public static void main(String args[])
 	{
 		Mobile m=new Mobile();
+		Airtel airtelsim=new Airtel();
+		m.setAirtel(airtelsim);
+		Jio jiosim=new Jio();
+		m.setJio(jiosim);
+		
 		m.Airtel();
 		System.out.println("............");
 		m.Jio();

@@ -14,12 +14,12 @@ public class Mobile {
 	public void setJio(Jio jio) {
 		this.jio = jio;
 	}
-	public void Airtel()
+	 void Airtel()
 	{
 		airtel.call();
 		airtel.msg();
 	}
-	public void Jio()
+	 void Jio()
 	{
 		jio.call();
 		jio.msg();
